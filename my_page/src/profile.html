@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevProfile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .card {
+            background-color: #2a2a2a;
+            border-radius: 8px;
+        }
+        .meme-img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar clone -->
+<nav class="navbar is-dark">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+            DevCorner
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="#">Home</a>
+            <a class="navbar-item" href="#">Messages</a>
+            <a class="navbar-item" href="#">Profile</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Profile Section -->
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered is-vcentered">
+
+            <!-- Profile Card -->
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-content has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img class="is-rounded" src="https://via.placeholder.com/128" alt="Profile">
+                        </figure>
+                        <p class="title is-4 mt-2">Dominik</p>
+                        <p class="subtitle is-6">Developer by day 🧑‍💻, meme curator by night 🌙</p>
+                        <p>Passionate about web dev, clean code, and a good laugh.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meme of the Week -->
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="title is-5 has-text-white">🧠 Coding Meme of the Week</h2>
+                        <figure class="image">
+                            <img class="meme-img" src="https://i.imgur.com/6WfFZqj.png" alt="Meme">
+                        </figure>
+                        <p class="mt-3">"When you fix a bug and 10 more appear..."</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
